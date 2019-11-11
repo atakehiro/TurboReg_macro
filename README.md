@@ -4,9 +4,9 @@ macro code for advanced usage of TurboReg (ImageJ plugin)
 TurboReg website  http://bigwww.epfl.ch/thevenaz/turboreg/
 
 # Dependencies
-Fiji
+Fiji (https://imagej.net/Fiji)
 
-TurboReg
+TurboReg (http://bigwww.epfl.ch/thevenaz/turboreg/)
 
 
 ## Author
