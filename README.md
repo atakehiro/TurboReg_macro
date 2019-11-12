@@ -1,7 +1,7 @@
 # TurboReg_macro
 macro code for advanced usage of TurboReg (ImageJ plugin)
 
-# Dependencies
+## Dependencies
 Fiji (https://imagej.net/Fiji)
 
 TurboReg (http://bigwww.epfl.ch/thevenaz/turboreg/)
@@ -12,7 +12,7 @@ Takehiro Ajioka
 
 E-mail:1790651m@stu.kobe-u.ac.jp
 
-# Affiliation
+## Affiliation
 
 Division of System Neuroscience, Kobe University of Graduate School of Medicine
 
