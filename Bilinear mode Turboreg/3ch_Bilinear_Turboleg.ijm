@@ -1,4 +1,4 @@
-
+﻿
 inputdir = getDirectory("input_folder"); //レジスト前のファイルがある
 outputdir = getDirectory("output_folder"); //レジスト後のファイルを入れる
 
@@ -9,13 +9,13 @@ list1=getFileList(inputdir);
 for (i=0; i<list1.length; i++) {
 	file = list1[i];
 	print("Present file is " + file);
-	bilinear_2ch_TurboReg(inputdir, outputdir, file);
+	bilinear_3ch_TurboReg(inputdir, outputdir, file);
 	close("*");
 }
 print("Turboreg was Finished");
 setBatchMode(false); 
 
-function bilinear_2ch_TurboReg(inputdir, outputdir, file) {
+function bilinear_3ch_TurboReg(inputdir, outputdir, file) {
 	regstack = "reged_"  + file;
 	open(inputdir + "/" + file);
 	selectWindow(file);
